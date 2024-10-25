@@ -1,0 +1,378 @@
+*{
+    padding : 0px ;
+    margin: 0px ;
+    font-family : 'josefin sans ' , sans-serif ;
+    box-sizing: border-box;
+}
+body{
+    background-color:hsl(0, 100%, 99%);
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    display: flex;
+    background-color:#F2F2F2 ;
+    width: 100%;
+    padding: 1.5vh 6vh;
+    position: fixed;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 10px 20px;
+  }
+  
+  .logo{
+     float:left;
+     color:#275950;
+     text-align: center;
+     padding:20px;
+     text-decoration: none;
+     font-size: 35px;
+     line-height: 10px;
+     text-decoration: none;
+     font-weight: bold ;
+     font-style: normal;
+     font-family: 'Times New Roman', Times, serif;
+  }
+  .subLogo a {
+   
+    line-height: 10px ;
+    text-align: center ;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 1.5vh 4vh;
+    font-style: normal;
+    font-family:'Times New Roman', Times, serif;
+    color: #275950;
+  }
+.about{
+   width: 100%;
+   padding : 78px 0px ;
+   background-color:hsl(0, 100%, 99%);
+}
+.about img {
+    height: 500px;
+    width: 500px ;
+}
+.about-text{
+    width: 550px ;
+    float: right ;
+    color: rgb(224, 155, 17) ;
+}
+.main{
+    width : 1130px ; 
+    max-width: 95% ;
+    margin: 0 auto;
+    display: flex ;
+    align-items: center ;
+    justify-content: space-around;
+    color: rgb(224, 155, 17) ;
+}
+.about-text h1 {
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(224, 155, 17) ;
+    font-size: 80px ;
+    text-transform : capitalize ;
+    margin-bottom: 20px ;
+    font-style: normal ;
+}
+.about-text h4 {
+    color: rgb(224, 155, 17) ;
+    font-family:'Times New Roman', Times, serif;
+    
+    font-size: 25px ;
+    text-transform : capitalize ;
+    margin-bottom: 25px ;
+    letter-spacing : 2px ;
+    font-style: normal;
+}
+.about-text h5 {
+    font-style: normal;
+  font-family:'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0) ;
+    font-size: 25px ;
+    text-transform : capitalize ;
+    margin-bottom: 25px ;
+    letter-spacing : 2px ;
+}
+span {
+    color: #090909 ;
+}
+.about-text p {
+    color:rgb(0, 0, 0);
+    letter-spacing: 1px ;
+    line-height: 28px ;
+    font-size: 18px ;
+    margin-bottom: 45px ;
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    background:  #0f0e0e ;
+    color: rgb(198, 175, 28)  ;
+    text-decoration: none;
+    border: 2px solid transparent ;
+    font-weight: bold ;
+    padding: 13px 30px ;
+    border-radius: 30px ;
+    transition : .45 ;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal ;
+}
+button:hover{
+    background: transparent ;
+    border : 2px solid #f9004d ;
+    cursor: pointer ;
+}
+.photo{
+    width: 180px ;
+    height:140px ;
+}
+.photo2{
+    width: 280px ;
+    height:240px ;
+}
+.section2{
+    font-family:'Times New Roman', Times, serif;
+    background-color: #000000 ;
+    width : 1130px ; 
+    max-width: 95% ;
+    margin: 0 auto;
+    display: flex ;
+    align-items: center ;
+    justify-content: space-around;
+}
+.section2  h1 
+{
+    background-color:#275950;
+    font-size: 50px ;
+    color: #c2790d ;
+    padding-right: 6% ;
+    padding-left: 10%;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal ;
+}
+.section2  h1:hover{
+    background-color: white ;
+    background: transparent ;
+    border : 2px solid #c2790d ;
+    cursor: pointer ;
+}
+.section2  h2
+{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal ;
+    padding-left: 5%;
+    font-size: 30px ;
+    color: #ddd;
+}
+.section2  p
+{
+    color: #ddd;
+    font-weight: bold;
+    font-size: large ;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold ;
+}
+.client{
+    background-color:   #c66408d0;
+    width : 100% ; 
+    max-width: 95% ;
+    margin: auto auto;
+    display: flex ;
+    align-items: center ;
+    justify-content: space-around;
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif ;
+}
+.con{
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif ;
+    background:  #000000 ;
+    color: rgb(198, 175, 28) ;
+    text-decoration: none;
+    border: 2px solid transparent ;
+    font-weight: bold ;
+    padding: 13px 30px ;
+    border-radius: 30px ;
+    transition : .45 ;
+}
+.text {
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif ;
+}
+#sc{
+    margin-top: 40px ;
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin-top: 10px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .search {
+    margin-top: 20px;
+  }
+  
+  .search input[type="text"] {
+    padding: 5px;
+  }
+  
+  .search button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+  }
+  
+  .hero {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .featured {
+    padding: 40px;
+  }
+  
+  .book {
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+  }
+  
+  .book img {
+    width: 150px;
+    height: 200px;
+  }
+  
+  .services {
+    background-color: #f9f9f9;
+    padding: 40px;
+  }
+  
+  .services ul {
+    list-style-type: none;
+  }
+  
+  .services ul li {
+    margin-bottom: 10px;
+  }
+  
+  .events {
+    padding: 40px;
+  }
+  
+  .event {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  *{
+    padding : 0px ;
+    margin: 0px ;
+    font-family :'Times New Roman', Times, serif;
+    box-sizing: border-box;
+  }
+  body{
+    background-color:hsl(0, 100%, 99%);
+    font-family:'Courier New', Courier, monospace;
+  }
+  header{
+    display: flex;
+    background-color:#ffffff ;
+    width: 100%;
+    padding: 1.5vh 6vh;
+    position: fixed;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 10px 20px;
+  }
+  
+  .logo{
+     float:left;
+     color:#c66408d0;
+     text-align: center;
+     padding:20px;
+     text-decoration: none;
+     font-size: 35px;
+     line-height: 10px;
+     text-decoration: none;
+     font-weight: bold ;
+     font-style: normal;
+     margin-left: 0px;
+    
+  }
+  .mlogo{
+    float:left ;
+    margin-top: 15px;
+    margin-left: 8px;
+    text-align: center;
+     color:#030303;
+     text-decoration:solid;
+     font-size: 20px;
+     text-decoration: none;
+     font-weight:lighter ;
+     font-style: normal;
+   
+  }
+  .subLogo a {
+   
+    line-height: 10px ;
+    text-align: center ;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 1.5vh 4vh;
+    font-style: normal;
+  
+    color:#c66408d0;
+  }
+  .p {
+  
+    height: 30px;
+    width: 30px;
+    
+  
+  }
